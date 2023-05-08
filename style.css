@@ -1,0 +1,67 @@
+* {
+ text-decoration: none;
+}
+
+body {
+ color: #494949;
+ font-family: 'Lora', serif;
+ font-size: 18px;
+ font-weight: lighter;
+ line-height: 1.6;
+ margin: 0;
+ padding: 0;
+}
+
+h1, h2 {
+ font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+ color: #fff;
+ font-size: 38px;
+ font-weight: bold;
+}
+
+h2 {
+ color: #A0A0A0;
+ font-size: 1.5rem;
+ font-weight: normal;
+}
+
+.banner {
+ background-image: url("https://unsplash.com/blog/content/images/size/w1000/2023/05/mos-design-SWYTQdqFBfo-unsplash.jpg");
+ background-size: cover;
+ background-position: center;
+ color: #fff;
+ padding: 120px 0;
+ margin: 0;
+}
+
+.banner p {
+ font-size: 30px;
+ font-style: italic;
+ opacity: 0.8;
+}
+
+.container {
+ margin: 50px auto;
+ width: 700px;
+}
+
+@media (max-width:800px) {
+ .container {
+  width: 95%;
+ }
+}
+
+.link {
+ background-image: linear-gradient(to bottom, rgb(253, 248, 233), rgb(253, 248, 233));
+ color: #636363;
+ font-size: 25px;
+ font-style: italic;
+ padding: 4px;
+}
+
+.link:hover {
+ background-image: linear-gradient(to bottom, rgb(253, 235, 182), rgb(248, 219, 132));
+}
